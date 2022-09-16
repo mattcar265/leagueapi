@@ -1,0 +1,11 @@
+.player-name:hover {
+  color: rgb(22, 30, 36);
+  cursor: pointer;
+}
+
+.player-name {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}

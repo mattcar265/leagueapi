@@ -1,0 +1,42 @@
+.navtitle {
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    border-right: 0.5px solid rgb(83, 83, 146);
+}
+
+.searchbar {
+    padding: 20px;
+    align-items: right;
+    right: 0px;
+    justify-content: right;
+    min-width: 500px;
+}
+
+.searchplayer {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(24, 24, 43);
+    min-width: 500px;
+}
+
+.searchplayer:hover {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(83, 83, 146);
+}
+
+.searchplayer:focus {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(83, 83, 146);
+    outline: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 43);
+    border-bottom: 0.5px solid rgb(83, 83, 146);
+}
